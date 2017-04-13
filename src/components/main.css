@@ -1,0 +1,28 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+.page{
+	width:1000px;
+	margin:auto;
+	margin-top:25px;
+
+}
+
+.side{
+	width:230px;
+}
+.top{
+	width:750px;
+	float:right;
+}
+.body{
+	float:right;
+	width:750px;
+}

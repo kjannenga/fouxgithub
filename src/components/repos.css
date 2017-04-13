@@ -1,0 +1,21 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+.title a{
+	text-decoration: none;
+	color:blue;
+}
+
+.repolist{
+	display:flex;
+	flex-direction: row;
+	list-style: none;
+	font-family: "Helvetica Neue";
+}

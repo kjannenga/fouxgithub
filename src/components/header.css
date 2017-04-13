@@ -1,0 +1,58 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+.headList{
+  color:#545454;
+  list-style:none;
+  display:flex;
+  flex-display:row;
+  margin:10px;
+
+}
+
+li{
+	margin:10px;
+}
+
+
+.searchbar{
+	width:380px;
+	height:35px;
+	border:1px solid #ccc;
+	border-radius: 5px;
+	font-size:20px;
+	margin-right:23px;
+
+}
+.type{
+	height:35px;
+	width:95px;
+	border-radius: 5px;
+	font-size: 20px;
+	margin:2px;
+}
+
+.language{
+	height:35px;
+	width:130px;
+	border-radius: 5px;
+	font-size: 20px;
+	margin:2px;
+}
+button{
+	color:white;
+	width:75px;
+	height:35px;
+	border-radius: 5px;
+	background-color: rgb(40,170,70);
+	border:1px solid darkgreen;
+	font-size: 20px;
+	margin:18px;
+
+}
